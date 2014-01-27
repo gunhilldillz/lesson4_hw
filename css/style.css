@@ -1,0 +1,146 @@
+/* import google fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Medula+One);
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel|Indie+Flower|Hammersmith+One);
+
+/* wrap everything in a 950px box -- this is too big! 800px seems to be the sweet spot */
+
+#wrapper {
+
+	width: 950px;
+	margin: 0 auto;	
+}
+
+/* make 2x2 menu grid -- EXPERIMENT */
+/* float left */
+
+#menul {
+	width: 400px;
+	height: 400px;
+	border: 5px dashed rgb(219, 219, 219);
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	float: left;
+	margin:0px 0px 30px 20px;
+}
+
+#menul:hover {
+
+	background-color: rgb(223, 229, 242);
+}
+
+
+/* make 2x2 menu grid -- EXPERIMENT */
+/* float right */
+
+#menur {
+	width: 400px;
+	height: 400px;
+	border: 5px dashed rgb(219, 219, 219);
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	float: right;
+	margin:0px 20px 30px 0px;
+}
+
+#menur:hover {
+
+	background-color: rgb(223, 229, 242);
+}
+
+/* make BIG box -- EXPERIMENT */
+
+#menuc {
+	width: 850px;
+	border: 5px dashed rgb(219, 219, 219);
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	padding: 50px;
+	
+}
+
+#menuc:hover {
+
+	background-color: rgb(223, 229, 242);
+}
+
+
+/* style text */
+
+#bigtext {
+
+
+	font-size: 83px;
+	color: rgb(36,36,36);
+	font-family: 'Grand Hotel';
+	text-align: justify;
+	
+	
+}
+
+#subtext {
+
+	color: rgb(72, 108, 173);
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Medula One';
+	margin: 0 auto;
+	font-weight: bold;
+	
+}
+
+
+#bottomtext {
+
+	color: rgb(73,73,73);
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'Grand Hotel';
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 950px;
+}
+
+#bottomtextbox {
+
+	color: rgb(73,73,73);
+	font-size: 40px;
+	font-weight: lighter;
+	font-family: 'Grand Hotel';
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* make images center!  */
+
+img {
+
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* style links */
+
+a:link {
+
+	text-decoration:none;
+	color: rgb(73, 73, 73);
+
+}
+
+
+
+a:visited {
+
+	color:black;
+}
+
